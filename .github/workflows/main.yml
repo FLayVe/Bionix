@@ -1,0 +1,28 @@
+name: My GitHub Actions Pipeline
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Build code
+        run: echo "Збірка успішна"
+```
+
+---
+
+### Крок 3. Закомітити та запушити
+```
+git add .
+git commit -m "added file for github actions"
+git push
