@@ -31,6 +31,7 @@ export default function DashboardPage () {
                         headers: { 'Content-Type': 'application/json' },
                     });
     
+                    
                     console.log("API Response Status:", res.status);  // Debugging
     
                     if (!res.ok) {
