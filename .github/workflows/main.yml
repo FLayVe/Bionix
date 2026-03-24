@@ -13,12 +13,11 @@ jobs:
 
       - name: Build code
         run: echo "Збірка успішна"
-```
 
 ---
 
 ### Крок 3. Закомітити та запушити
-```
+
 git add .
 git commit -m "added file for github actions"
 git push
