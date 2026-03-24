@@ -15,6 +15,7 @@ export default function Header() {
         { text: "Sign Up", route: "/auth/signup" },
     ];
 
+    
     return(
 
         <div className="fixed top-0 left-0 right-0 flex justify-end p-4 ">
